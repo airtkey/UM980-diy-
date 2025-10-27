@@ -97,17 +97,12 @@ sudo apt update
 sudo apt upgrade
 sudo reboot
 
-### 4. Connect Your GNSS Receiver
 
-Once the Pi has rebooted, connect your Unicore, Bynav, or Septentrio GNSS receiver via USB.
-
-
-1. Kopieren Sie den folgenden Befehl **vollständig** in die Zwischenablage:
 
    ```bash
    wget https://github.com/GNSSOEM/ELT_RTKBase/raw/main/install.sh
    chmod +x install.sh
-   ./install.sh```
+   ./install.sh
 
 
 ### 5. Install the ELT_RTKBase Software

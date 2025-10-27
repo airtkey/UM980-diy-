@@ -1,4 +1,4 @@
-# 📦 UM980 GNSS Module with a Raspberry Pi Zero 2WH & 3D Printable Case
+#  UM980 GNSS Module with a Raspberry Pi Zero 2WH & 3D Printable Case
 
 This repository contains a 3D-printable case specifically designed for the **UM980 GNSS module**. It’s part of a DIY GNSS miner setup and is ideal for projects such as Onocoy.
 
@@ -11,7 +11,7 @@ This repository contains a 3D-printable case specifically designed for the **UM9
 
 
 
-## 📄 Part List
+# 📄 Part List
 
 - Raspberry Pi Zero 2 WH – where the "H" officially stands for "pre-soldered headers"  
 https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
@@ -30,6 +30,8 @@ Example: https://aliexpress.com/item/32813594463.html
 
 - Raspberry Pi Micro USB Power Supply
 https://www.raspberrypi.com/products/micro-usb-power-supply
+
+- MicroSD card (at least 8GB, Class 10 recommended)
 
 
 # To complete your setup, you will need the following components:
@@ -51,9 +53,29 @@ Example: https://aliexpress.com/item/1005006425749599.html
 
 
 
+
 ## 🚀 Installation Guide
 
-This case is part of a DIY GNSS miner setup. Here's how to set up the software on your Raspberry Pi (or similar device):
+### Prerequisites:
+
+- A computer for initial SD card flashing.
+- Internet access for downloads and configuration.
+- You can 3D print the case yourself from the provided STL files, utilize a 3D printing service, or purchase a pre-printed case if available.
+
+
+
+### 1. Print the Case
+
+### 2. Assemble the Main Board
+
+- Assemble the Ethernet Hub and Raspberry Pi Zero: Carefully connect the Ethernet hub and the Raspberry Pi Zero, referring to their respective manuals for detailed instructions.
+- Attach the USB-A to USB-C OTG Adapter: Insert the USB-A to USB-C OTG adapter into the designated port on the right side of the Raspberry Pi Zero.
+- Connect the UM980 GNSS Board: Attach the UM980 GNSS board to the USB-C OTG adapter.
+- Mount the Assembled Board: Carefully place the fully assembled board into the case.
+- Secure the Board: Use the provided screws to fix the board firmly to the case.
+- Install the Antenna Plug: Guide the antenna plug through the designated hole in the case and secure it by screwing it into place.
+- Attach the Fans: Slide the two fans into their designated slots on the lid of the case.
+- Connect the Fans: Connect the fan cables to the appropriate GPIO pins on the Raspberry Pi Zero.
 
 ### 1. Flash the OS
 Download and flash **Raspberry Pi OS (Lite)** to your microSD card using [Raspberry Pi Imager](https://www.raspberrypi.com/software/).  
@@ -79,14 +101,22 @@ sudo reboot
 
 Once the Pi has rebooted, connect your Unicore, Bynav, or Septentrio GNSS receiver via USB.
 
+
+1. Kopieren Sie den folgenden Befehl **vollständig** in die Zwischenablage:
+
+   ```bash
+   wget https://github.com/GNSSOEM/ELT_RTKBase/raw/main/install.sh
+   chmod +x install.sh
+   ./install.sh```
+
+
 ### 5. Install the ELT_RTKBase Software
 
 Open a terminal (ssh with putty) on the Pi and run two times:
 
 "wget https://github.com/GNSSOEM/ELT_RTKBase/raw/main/install.sh
 chmod +x install.sh
-./install.sh"
-
+./install.shlol
 
 The script will install the required software and drivers, and start the dashboard (usually accessible at http://raspberrypi.local:3000).
 

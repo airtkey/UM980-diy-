@@ -1,4 +1,5 @@
-#  UM980 GNSS Module with a Raspberry Pi Zero 2WH & 3D Printable Case
+#  GNSS Basestation
+## with UM980 GNSS Module with a Raspberry Pi Zero 2WH & 3D Printable Case
 
 This repository contains a 3D-printable case specifically designed for the **UM980 GNSS module**. It’s part of a DIY GNSS miner setup and is ideal for projects such as Onocoy.
 
@@ -17,7 +18,7 @@ This repository contains a 3D-printable case specifically designed for the **UM9
 https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
 
 - UM980 GNSS Module
-  https://witmotion-sensor.com
+Exampple:  https://witmotion-sensor.com ; https://www.gns-electronics.de/ ; https://aliexpress.com/
 
 - USB-A (Male) to USB-C (Male) OTG
 Example: https://aliexpress.com/item/1005002301799896.html

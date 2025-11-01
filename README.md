@@ -15,29 +15,37 @@ This repository contains a 3D-printable case specifically designed for the **UM9
 
 - Raspberry Pi Zero 2 WH – where the "H" officially stands for "pre-soldered headers"  
 https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
+<img width="250" height="174" alt="RASP_PI_ZERO2_WH" src="https://github.com/user-attachments/assets/80a5c816-0b8b-43cc-b90f-1bcd15385148" />
 
 - UM980 GNSS Module
 Exampple:  https://witmotion-sensor.com ; https://www.gns-electronics.de/ ; https://aliexpress.com/
+<img width="184" height="250" alt="um980" src="https://github.com/user-attachments/assets/c81fc6bb-e565-4fdf-b510-cbfd57153f90" />
 
 - USB-A (Male) to USB-C (Male) OTG
 Example: https://aliexpress.com/item/1005002301799896.html
+<img width="229" height="250" alt="usb otg" src="https://github.com/user-attachments/assets/11d13eb0-989e-42bb-b893-fa8c28c4eb26" />
 
 - Ethernet / USB HUB HAT 
 https://www.waveshare.com/product/raspberry-pi/hats/interface-power/eth-usb-hub-hat-b.htm?___SID=U 
+<img width="250" height="172" alt="eth_hat" src="https://github.com/user-attachments/assets/4e4fce9b-29e2-4b4d-b333-94443c3f791a" />
 
 - 2x Fan 30x30x08 5V/3V
 Example: https://aliexpress.com/item/32813594463.html
+<img width="250" height="251" alt="fan" src="https://github.com/user-attachments/assets/6ebe6f5f-afcc-4d9b-934c-0be6bb307f4d" />
 
 - Raspberry Pi Micro USB Power Supply
 https://www.raspberrypi.com/products/micro-usb-power-supply
+<img width="250" height="250" alt="microusb-51v-25a-netzteil-fur-raspberry-pi-3b-3a-3b-2b-zero-zero-2-original-weiss" src="https://github.com/user-attachments/assets/1b6409c5-2805-414e-88f5-0d3cbac5ee8e" />
 
-- MicroSD card (at least 8GB, Class 10 recommended)
+- MicroSD card (at least 8GB,max 32GB, Class 10 recommended)
+<img width="250" height="187" alt="sd_card" src="https://github.com/user-attachments/assets/3d729816-15c2-4d2f-ae81-a434106245fd" />
 
 
 # To complete your setup, you will need the following components:
 
 - GNSS Antenna  Recommend: Beitian BS-800S
 Example: https://www.aliexpress.us/item/3256808846936564.html
+<img width="450" height="200" alt="antenna" src="https://github.com/user-attachments/assets/d12811f0-edee-4f7d-b358-3e0ba1650b81" />
 
 - LM400 cable SMA - TNC
 Example: https://www.aliexpress.us/item/3256808997745754.html
@@ -47,9 +55,11 @@ Why this matters:
 Standard TNC and TNC-K have different sizes.
 Recommended Practice:
 To guarantee compatibility, buy the antenna and cable as a bundle from the same supplier.
+<img width="250" height="203" alt="cable" src="https://github.com/user-attachments/assets/951e0954-a507-4edb-8514-e76a244d78f3" />
 
 - A mounting bracket
 Example: https://aliexpress.com/item/1005006425749599.html
+<img width="220" height="220" alt="bracket" src="https://github.com/user-attachments/assets/06ec4d4b-1815-4322-8d41-9627abb804f4" />
 
 
 

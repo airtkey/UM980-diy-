@@ -89,19 +89,16 @@ Example: https://aliexpress.com/item/1005006425749599.html
 - Secure the Board: Use the provided screws to fix the board firmly to the case.
 - Install the Antenna Plug: Guide the antenna plug through the designated hole in the case and secure it by screwing it into place.
 - Attach the Fans: Slide the two fans into their designated slots on the lid of the case.
-- Connect the Fans: Connect the fan cables to the appropriate GPIO pins on the Raspberry Pi Zero.
+- Connect the Fans: Connect the fan cables to the appropriate GPIO pins on the Raspberry Pi Zero. ( https://github.com/airtkey/UM980-diy-/blob/main/pictures/raspberry-pi-zero-pinout.png )
+<img width="698" height="200" alt="fan_lid" src="https://github.com/user-attachments/assets/a89f288a-bcf6-4063-950f-05d9efbf2443" />
 
 ### 1. Flash the OS
-Download and flash **Raspberry Pi OS (Lite)** to your microSD card using [Raspberry Pi Imager](https://www.raspberrypi.com/software/).  
-Enable SSH and Wi-Fi before booting (you can create an empty `ssh` file and a `wpa_supplicant.conf` in the boot partition).
+Download and flash **Raspberry Pi OS Lite (64-bit)** in the **Debian Bookworm** version to your microSD card using Raspberry Pi Imager. Enable SSH and Wi-Fi before proceeding. For more detailed information on flashing and setup, please refer to: https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system.
 
 ### 2. Connect via SSH
 Insert the SD card into your Raspberry Pi and power it up.  
 Then connect using an SSH client like **PuTTY**:
 
-Default credentials (recommended to change later):
-Username: admin
-Password: admin
 
 ### 3. Update and Reboot
 

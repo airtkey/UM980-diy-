@@ -1,13 +1,12 @@
 #  GNSS Basestation
-## with UM980 GNSS Module with a Raspberry Pi Zero 2WH & 3D Printable Case
+## with UM980 GNSS Module, Raspberry Pi Zero 2WH & 3D Printable Case
 
-This repository contains a 3D-printable case specifically designed for the **UM980 GNSS module**. It’s part of a DIY GNSS miner setup and is ideal for projects such as Onocoy.
-
+This repository contains a 3D-printable case specifically designed for the **UM980 GNSS module**. It’s part of a DIY GNSS miner setup for the onocoy project.
 
 ## 🧩 Features
 - Ethernet port
 - Custom fit for the **UM980 GNSS module**
-- Space for two **3010 cooling fan** 
+- Space for two **3008 cooling fan** 
 - no soldering
 
 

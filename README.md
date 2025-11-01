@@ -77,6 +77,10 @@ Example: https://aliexpress.com/item/1005006425749599.html
 ### 1. Print the Case
 
 ### 2. Assemble the Main Board
+![main_board](https://github.com/user-attachments/assets/bd724068-8737-407b-b39b-44f12837400d)
+
+
+(The photo shows the 2W version with pins added by the user)
 
 - Assemble the Ethernet Hub and Raspberry Pi Zero: Carefully connect the Ethernet hub and the Raspberry Pi Zero, referring to their respective manuals for detailed instructions.
 - Attach the USB-A to USB-C OTG Adapter: Insert the USB-A to USB-C OTG adapter into the designated port on the right side of the Raspberry Pi Zero.

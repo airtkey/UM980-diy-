@@ -1,5 +1,4 @@
 #  GNSS Basestation
-![gnss basestation](pictures/miner_ohneBG.png)
 
 ## with UM980 GNSS Module, Raspberry Pi Zero 2WH & 3D Printable Case
 

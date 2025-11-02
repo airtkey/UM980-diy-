@@ -1,8 +1,10 @@
 #  GNSS Basestation
+<img width="510" height="183" alt="miner_ohneBG" src="https://github.com/user-attachments/assets/7aa2d497-d174-43aa-8f2b-47c93be2a783" />
 
 ## with UM980 GNSS Module, Raspberry Pi Zero 2WH & 3D Printable Case
 
-This repository contains a 3D-printable case specifically designed for the **UM980 GNSS module**. It’s part of a DIY GNSS miner setup for the onocoy project.
+This repository contains a 3D-printable case specifically designed for the **UM980 GNSS module**.<br>
+It’s part of a DIY GNSS miner setup for the onocoy project.
 
 ## 🧩 Features
 - Ethernet port
@@ -75,7 +77,13 @@ Example: https://aliexpress.com/item/1005006425749599.html
 
 
 
-### 1. Print the Case
+## 1. Print the Case
+### 🖨️ Print Instructions
+
+- Recommended material: **PETG**,**ASA** or **PLA+**
+- Orientation: print flat (bottom side down)
+- Supports: **not required**
+- Infill: 20-40%
 
 ### 2. Assemble the Main Board
 ![main_board](https://github.com/user-attachments/assets/bd724068-8737-407b-b39b-44f12837400d)
@@ -91,7 +99,10 @@ Example: https://aliexpress.com/item/1005006425749599.html
 - Install the Antenna Plug: Guide the antenna plug through the designated hole in the case and secure it by screwing it into place.
 - Attach the Fans: Slide the two fans into their designated slots on the lid of the case.
 - Connect the Fans: Connect the fan cables to the appropriate GPIO pins on the Raspberry Pi Zero. ( https://github.com/airtkey/UM980-diy-/blob/main/pictures/raspberry-pi-zero-pinout.png )
-<img width="698" height="200" alt="fan_lid" src="https://github.com/user-attachments/assets/a89f288a-bcf6-4063-950f-05d9efbf2443" />
+<img width="349" height="100" alt="fan_lid" src="https://github.com/user-attachments/assets/a89f288a-bcf6-4063-950f-05d9efbf2443" />
+<br>  
+<img width="417" height="162" alt="insode" src="https://github.com/user-attachments/assets/d0f15523-a58e-4c8d-8413-0b1c4c0dbbf2" />
+
 
 ### 1. Flash the OS
 Download and flash **Raspberry Pi OS Lite (64-bit)** in the **Debian Bookworm** version to your microSD card using Raspberry Pi Imager. Enable SSH and Wi-Fi before proceeding. For more detailed information on flashing and setup, please refer to: https://www.raspberrypi.com/documentation/computers/getting-started.html#installing-the-operating-system.

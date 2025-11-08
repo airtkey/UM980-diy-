@@ -23,11 +23,12 @@ To make RTKit more accessible, here are local alternatives for key components.
 | Region                  | Shops                          |
 |----------------------------|---------------------------------------------------------------------|
 | **Brazil** | [TNT](https://www.tntferramentas.com.br/) <br>[mercadolivre](https://www.mercadolivre.com.br/) |
-| **India** | [Robu.in](https://robu.in/) <br>[Fab.to.Lab](https://www.fabtolab.com/) <br>[Thinkrobotics](https://thinkrobotics.com/) <br>[Robokits India](https://robokits.co.in/) |
+| **India** | [Robu.in](https://robu.in/) <br>[Fab.to.Lab](https://www.fabtolab.com/) <br>[Thinkrobotics](https://thinkrobotics.com/) <br>[Robokits India](https://robokits.co.in/) <br> [Witmotion](https://witmotion-sensor.com/)|
 
 
 **Tips for Regional Users:** 
-- **India:** Use UPI payments on Robu.in for discounts; watch for GST-inclusive pricing.
+- **India:** Use UPI payments on Robu.in for discounts; watch for GST-inclusive pricing. <br>
+**GNSS Tip:** Orders for GNSS modules and antennas from [Witmotion](https://witmotion-sensor.com/) currently arrive duty-free in India
 - **Brazil:** Mercado Livre offers free shipping on many items; factor in ICMS taxes.
 - If links change, update via issues/PRs—community contributions welcome!
 
